@@ -2,12 +2,12 @@
 
 > UpInvest, projeto desenvolvido para o MegaHack.
 
+## UpInvest, a plataforma que você aprende investindo.
+> Aprenda, invista & transforme!
+
 ## Rodando o projeto
 
 ``` bash
-
-## UpInvest, a plataforma que você aprende investindo.
-# Aprenda, invista & transforme!
 
 # Olá, para rodar o projeto em sua máquina, primeiramente você precisará clonar esse projeto
 $ git clone https://github.com/juliannevolotao/projectMegaHack.git
