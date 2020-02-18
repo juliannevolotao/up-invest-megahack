@@ -1,12 +1,14 @@
 # prj-megahack
 
-> Projeto desenvolvido para o MegaHack
-> UpInvest, a plataforma que você aprende investindo.
-> Aprenda, invista & transforme!
+> UpInvest, projeto desenvolvido para o MegaHack.
 
-## Build Setup
+## Rodando o projeto
 
 ``` bash
+
+## UpInvest, a plataforma que você aprende investindo.
+# Aprenda, invista & transforme!
+
 # Olá, para rodar o projeto em sua máquina, primeiramente você precisará clonar esse projeto
 $ git clone https://github.com/juliannevolotao/projectMegaHack.git
 
@@ -18,12 +20,7 @@ $ yarn dev
 
 # Não possui login de acesso, basta clicar em Entrar
 
-# build for production and launch server
-$ yarn build
-$ yarn start
 
-# generate static project
-$ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
