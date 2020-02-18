@@ -5,7 +5,9 @@
 
       div(v-if="!logarConta && !criarConta").inicial-content
         div.left-logo
+          img(src="../static/logoCortado.png")
         div.left-texto
+          p UpInvest
           h1 
             | Aprenda, 
             br 
@@ -16,10 +18,10 @@
         div.left-buttons
 
           div( @click="logarConta = true").button
-            a Acessar conta 
+            a Acessar conta
 
           div( @click="criarConta = true").button
-            a Criar conta 
+            a Cadastrar
 
 
 
@@ -29,20 +31,22 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="10.079" height="16.608" viewBox="0 0 10.079 16.608"><defs><style>.a{fill:#01c676;}</style></defs><path class="a" d="M27.76,45.321l7.391-7.391a.913.913,0,0,1,1.291,0l.862.862a.913.913,0,0,1,0,1.289l-5.858,5.885,5.858,5.885a.912.912,0,0,1,0,1.289L36.441,54a.913.913,0,0,1-1.291,0L27.76,46.612A.913.913,0,0,1,27.76,45.321Z" transform="translate(-27.492 -37.662)"/></svg>
           span Voltar
 
-        div.left-logo
+        div.left-logo.logosmall
+          img(src="../static/logoCortado.png")
 
         div.login-texto
           h2 Olá
           span Seja bem vindo novamente!
 
-        input(type="number" placeholder="Seu CPF").input
-        input(type="text" placeholder="Sua senha").input
+        input(type="text" placeholder="Seu CPF").input
+        input(type="password" placeholder="Sua senha").input
 
         span.esqueceu-senha Esqueceu a senha?
 
-        nuxt-link( to="/dashboard" style="text-decoration: none")
-          div( @click="").button.btnLogar
-            a Entrar
+        div.btnLogar
+          nuxt-link( to="/dashboard" style="text-decoration: none")
+            div( @click="").button
+                a Entrar
 
         span.semconta Ainda não tenho conta: 
           span( @click="criarConta = true, logarConta = false") cadastre-se
@@ -54,7 +58,8 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="10.079" height="16.608" viewBox="0 0 10.079 16.608"><defs><style>.a{fill:#01c676;}</style></defs><path class="a" d="M27.76,45.321l7.391-7.391a.913.913,0,0,1,1.291,0l.862.862a.913.913,0,0,1,0,1.289l-5.858,5.885,5.858,5.885a.912.912,0,0,1,0,1.289L36.441,54a.913.913,0,0,1-1.291,0L27.76,46.612A.913.913,0,0,1,27.76,45.321Z" transform="translate(-27.492 -37.662)"/></svg>
           span Voltar
 
-        div.left-logo
+        div.left-logo.logosmall
+          img(src="../static/logoCortado.png")
 
         div.cadastro-texto
           h2 Olá
@@ -80,6 +85,12 @@
 
 <script>
 export default {
+  head() {
+        return {
+            title: 'UpInvest'
+        }
+        
+  },
   data() {
     return {
       logarConta: false,
@@ -91,11 +102,18 @@ export default {
 
 <style lang="sass" scoped>
 
-  *
-    font-family: 'Roboto', sans-serif
+  @keyframes fade
+    0% 
+        transform: translateX(10px)
+        opacity: 0
+    100% 
+        transform: translateX(0px)
+        opacity: 1
   
 
   .container
+    animation: fade .8s
+    overflow-x: hidden
     width: 100%
     justify-content: space-between
     height: 100%
@@ -124,15 +142,19 @@ export default {
         box-sizing: border-box
         padding: 4px 12px
         font-size: 1em
-        margin: 0 0 20px 30px
+        margin: 0 0 20px 0
+
+      .logosmall 
+          width: 80px !important
+          height: 80px !important
+          margin: 30px 0
 
       .left-logo
-        width: 140px
-        height: 140px
-        background-image: url("../static/logoColorido.png")
-        background-size: cover
-        background-position: center
-        background-repeat: no-repeat
+        width: 128px
+        height: 138px
+        
+        img 
+          width: 100%
 
 
       .inicial-content
@@ -141,9 +163,11 @@ export default {
         justify-content: center
         width: 100%
 
+        
+
         .left-texto
-          padding-left: 30px
-          margin-top: 30px
+          //padding-left: 30px
+          margin-top: 60px
           font-size: 24px
           line-height: 45px
           color: #01C676
@@ -152,12 +176,12 @@ export default {
             text-align: left
 
         .left-buttons
-          margin: 60px 0 0 30px
+          margin: 50px 0 0 0
           height: 60px
           width: 320px
           position: relative
           display: flex
-          justify-content: space-between
+          justify-content: flex-start
 
           
       
@@ -168,7 +192,7 @@ export default {
         width: 100%
 
         .login-texto 
-          padding-left: 30px
+          //padding-left: 30px
           margin-bottom: 30px
 
           h2
@@ -181,18 +205,18 @@ export default {
             font-size: 18px
 
         .esqueceu-senha
-          padding-left: 30px
+          //padding-left: 30px
           font-size: 12px
           color: #01c576
           margin-top: -10px
 
         .btnLogar
-          margin: 80px 0 0 85px
+          margin: 80px 0 0 60px
+          width: 140px
 
         .semconta
-          text-align: center
           font-size: 12px
-          margin-left: -50px
+          margin-left: 25px
           margin-top: 10px
           color: #A4A4A4
 
@@ -208,7 +232,7 @@ export default {
         width: 100%
 
         .cadastro-texto 
-          padding-left: 30px
+          //padding-left: 30px
           margin-bottom: 30px
 
           h2
@@ -237,7 +261,7 @@ export default {
 
 
     .arrow-back 
-      padding-left: 30px
+      //padding-left: 30px
       font-size: 1em
       color: #01C676
       display: flex
@@ -257,14 +281,17 @@ export default {
       border: #01C676 3px solid
       border-radius: 5px
       height: 50px
-      width: 150px
+      width: auto
       display: flex
       text-align: center
-      padding: 10px
+      padding: 10px 18px
       cursor: pointer
       transition: all .4s
       justify-content: center
       text-decoration: none
+
+      &:first-of-type
+        margin-right: 20px
 
       &:hover 
         transform: scale(1.08)
