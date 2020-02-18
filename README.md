@@ -1,6 +1,8 @@
 # prj-megahack
 
 > Projeto desenvolvido para o MegaHack
+> UpInvest, a plataforma que você aprende investindo.
+> Aprenda, invista & transforme!
 
 ## Build Setup
 
@@ -13,6 +15,8 @@ $ yarn install
 
 # Depois de instaladas rode o projeto e abre em seu navegador => localhost:3000
 $ yarn dev
+
+# Não possui login de acesso, basta clicar em Entrar
 
 # build for production and launch server
 $ yarn build
