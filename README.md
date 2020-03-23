@@ -1,11 +1,9 @@
-# prj-megahack
+## :green_heart: Projeto para o MegaHack da Shawee.
 
-> UpInvest, projeto desenvolvido para o MegaHack.
-
-## UpInvest, a plataforma que você aprende investindo.
+> UpInvest, projeto desenvolvido para o MegaHack, a plataforma que você aprende investindo.
 > Aprenda, invista & transforme!
 
-## Rodando o projeto
+## :scroll: Rodando o projeto
 
 ``` bash
 
