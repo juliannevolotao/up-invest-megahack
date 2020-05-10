@@ -3,22 +3,27 @@
 > UpInvest, projeto desenvolvido para o MegaHack, a plataforma que você aprende investindo.
 > Aprenda, invista & transforme!
 
-## :scroll: Rodando o projeto
 
-``` bash
+## :computer: Tecnologias
+- [Nuxtjs](https://nuxtjs.org/)
+- [Sass](https://sass-lang.com/)
+- [Pug](https://pugjs.org/api/getting-started.html)
 
-# Olá, para rodar o projeto em sua máquina, primeiramente você precisará clonar esse projeto
-$ git clone https://github.com/juliannevolotao/projectMegaHack.git
+<br>
+<br>
 
-# Após isso, instale as dependências: 
-$ yarn install
+## :scroll: Rodando a aplicação
 
-# Depois de instaladas rode o projeto e abre em seu navegador => localhost:3000
-$ yarn dev
+Clone o repositório para sua máquina usando o comando `git clone https://github.com/juliannevolotao/up-invest-megahack.git` no local desejado através do terminal. Em seguida acesse a pasta do projeto com o comando `cd up-invest-megahack`.
 
-# Não possui login de acesso, basta clicar em Entrar
+**1.** Em seguida através do terminal use `yarn dev` ou `npm run dev` para rodar o projeto. Se tudo ocorrer bem abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto
 
+<br>
+<br>
 
-```
+<h5 align="center">
+  :heart: Desenvolvido por Julianne Volotão.
+</h5>
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+<br>
+<br>
