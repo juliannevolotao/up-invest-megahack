@@ -1,36 +1,47 @@
-<<<<<<< HEAD
-# prj-megahack
+<h2 align="center">
+    <img alt="UP Invest" src=".github/LogoName.png" width="230px" />
+</h2>
 
-> UpInvest, projeto desenvolvido para o MegaHack.
+<br>
 
-## UpInvest, a plataforma que você aprende investindo.
-> Aprenda, invista & transforme!
+<p align="center">
+    <img alt="Aplicação Up invest" src=".github/TelaWeb.jpeg" >
+</p>
 
-## Rodando o projeto
+<h4 align="center">
+  Mega Hack Shawee - XP Inc. 
+</h4>
+<h5 align="center">
+  Online, 7 de Fev de 2020
+</h5>
 
-``` bash
+<p align="center">
+  :green_heart: <a href="#green_heart-o-projeto">O projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :wink: <a href="#wink-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :iphone: <a href="#iphone-protótipo-mobile">Protótipo mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :computer: <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :scroll: <a href="#scroll-iniciando-a-aplicação"> Iniciando a aplicação </a>
+</p>
 
-# Olá, para rodar o projeto em sua máquina, primeiramente você precisará clonar esse projeto
-$ git clone https://github.com/juliannevolotao/projectMegaHack.git
+<br>
+<br>
 
-# Após isso, instale as dependências: 
-$ yarn install
+## :green_heart: O Projeto
 
-# Depois de instaladas rode o projeto e abre em seu navegador => localhost:3000
-$ yarn dev
+No Mega Hack Shawee escolhemos o desafio da XP Inc onde tratamos sobre investimentos através de uma ideia para que até mesmo os que não conhecem bem sobre o assunto, pudesse de uma forma dinâmica aprender e investir ao mesmo tempo.
 
-# Não possui login de acesso, basta clicar em Entrar
+<br>
 
+## :wink: Descrição
 
-```
+Up Invest é uma plataforma desenvolvida para ajudar as pessoas a assumirem o controle de sua vida financeira, adquirindo conhecimento através de fases e etapas de uma forma mais dinâmica, despertando o interesse e assim fazendo com que se sintam mais seguros a investir por meio da própria plataforma. Com isso, aprender investindo é o objetivo da Up Invest.
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
-## :green_heart: Projeto para o MegaHack da Shawee.
-
-> UpInvest, projeto desenvolvido para o MegaHack, a plataforma que você aprende investindo.
-> Aprenda, invista & transforme!
-
+<br>
+   
+## :iphone: Protótipo Mobile
+<p align="center">
+    <img alt="Aplicação Up invest" src=".github/telas.gif" width="300px" >
+</p>
 
 ## :computer: Tecnologias
 - [Nuxtjs](https://nuxtjs.org/)
@@ -38,9 +49,8 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [Pug](https://pugjs.org/api/getting-started.html)
 
 <br>
-<br>
 
-## :scroll: Rodando a aplicação
+## :scroll: Iniciando a aplicação
 
 Clone o repositório para sua máquina usando o comando `git clone https://github.com/juliannevolotao/up-invest-megahack.git` no local desejado através do terminal. Em seguida acesse a pasta do projeto com o comando `cd up-invest-megahack`.
 
@@ -55,4 +65,3 @@ Clone o repositório para sua máquina usando o comando `git clone https://githu
 
 <br>
 <br>
->>>>>>> 5ba3797e65f7659fbb1b94ea7ad060bae926fa99
