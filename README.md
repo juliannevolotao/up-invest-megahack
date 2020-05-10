@@ -42,7 +42,8 @@ Up Invest é uma plataforma desenvolvida para ajudar as pessoas a assumirem o co
     <img alt="Sobre a Up invest" src=".github/sobreProjeto.gif" width="700px" >
 </p>
 
-   
+<br>
+
 ## :iphone: Protótipo Mobile
 <p align="center">
     <img alt="Aplicação Up invest" src=".github/telas.gif" width="300px" >
