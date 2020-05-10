@@ -37,11 +37,18 @@ No Mega Hack Shawee escolhemos o desafio da XP Inc onde tratamos sobre investime
 Up Invest é uma plataforma desenvolvida para ajudar as pessoas a assumirem o controle de sua vida financeira, adquirindo conhecimento através de fases e etapas de uma forma mais dinâmica, despertando o interesse e assim fazendo com que se sintam mais seguros a investir por meio da própria plataforma. Com isso, aprender investindo é o objetivo da Up Invest.
 
 <br>
+
+<p align="center">
+    <img alt="Sobre a Up invest" src=".github/sobreProjeto.gif" width="700px" >
+</p>
+
    
 ## :iphone: Protótipo Mobile
 <p align="center">
     <img alt="Aplicação Up invest" src=".github/telas.gif" width="300px" >
 </p>
+
+<br>
 
 ## :computer: Tecnologias
 - [Nuxtjs](https://nuxtjs.org/)
@@ -60,7 +67,7 @@ Clone o repositório para sua máquina usando o comando `git clone https://githu
 <br>
 
 <h5 align="center">
-  :heart: Desenvolvido por Julianne Volotão.
+  :heart: Front-end e protótipos desenvolvido por Julianne Volotão.
 </h5>
 
 <br>
