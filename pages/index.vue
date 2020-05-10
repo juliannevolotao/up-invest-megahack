@@ -5,7 +5,11 @@
 
       div(v-if="!logarConta && !criarConta").inicial-content
         div.left-logo
+<<<<<<< HEAD
           img(src="/LogoCortado.png")
+=======
+          img(src="../static/logoCortado.png")
+>>>>>>> 5ba3797e65f7659fbb1b94ea7ad060bae926fa99
         div.left-texto
           p UpInvest
           h1 
@@ -32,7 +36,11 @@
           span Voltar
 
         div.left-logo.logosmall
+<<<<<<< HEAD
           img(src="LogoCortado.png")
+=======
+          img(src="../static/logoCortado.png")
+>>>>>>> 5ba3797e65f7659fbb1b94ea7ad060bae926fa99
 
         div.login-texto
           h2 Olá
@@ -59,7 +67,11 @@
           span Voltar
 
         div.left-logo.logosmall
+<<<<<<< HEAD
           img(src="LogoCortado.png")
+=======
+          img(src="../static/logoCortado.png")
+>>>>>>> 5ba3797e65f7659fbb1b94ea7ad060bae926fa99
 
         div.cadastro-texto
           h2 Olá
@@ -252,7 +264,11 @@ export default {
     .right
       position: relative
       width: 55%
+<<<<<<< HEAD
       background-image: url("/fundooval.jpg")
+=======
+      background-image: url("../static/fundooval.jpg")
+>>>>>>> 5ba3797e65f7659fbb1b94ea7ad060bae926fa99
       background-size: cover
       background-repeat: no-repeat
       height: 100%
