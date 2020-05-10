@@ -62,13 +62,13 @@ Up Invest é uma plataforma desenvolvida para ajudar as pessoas a assumirem o co
 
 Clone o repositório para sua máquina usando o comando `git clone https://github.com/juliannevolotao/up-invest-megahack.git` no local desejado através do terminal. Em seguida acesse a pasta do projeto com o comando `cd up-invest-megahack`.
 
-**1.** Em seguida através do terminal use `yarn dev` ou `npm run dev` para rodar o projeto. Se tudo ocorrer bem abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto
+**1.** Em seguida através do terminal use `yarn dev` ou `npm run dev` para rodar o projeto. Se tudo ocorrer bem abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto.
 
 <br>
 <br>
 
 <h5 align="center">
-  :heart: Front-end e protótipos desenvolvido por Julianne Volotão.
+  :heart: Front-end e protótipos desenvolvidos por Julianne Volotão.
 </h5>
 
 <br>
